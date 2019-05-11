@@ -59,6 +59,27 @@ var contestants = [{
     name : "Tracy 4",
     youtube : "https://www.youtube.com/embed/WA4_DJvrU30",
     imageName : "team-img4.jpg"
+},{
+    contestantId : 5,
+    name : "Tracy 5",
+    youtube : "https://www.youtube.com/embed/WA4_DJvrU30",
+    imageName : "team-img1.jpg"
+},{
+    contestantId : 6,
+    name : "Tracy 6",
+    youtube : "https://www.youtube.com/embed/WA4_DJvrU30",
+    imageName : "team-img2.jpg"
+},{
+    contestantId : 7,
+    name : "Tracy 7",
+    youtube : "https://www.youtube.com/embed/WA4_DJvrU30",
+    imageName : "team-img3.jpg"
+},
+{
+    contestantId : 8,
+    name : "Tracy 8",
+    youtube : "https://www.youtube.com/embed/WA4_DJvrU30",
+    imageName : "team-img4.jpg"
 }]
 
 function loadContestants(){
