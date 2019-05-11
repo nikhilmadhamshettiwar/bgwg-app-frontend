@@ -34,22 +34,53 @@ h2 span
 	}
 /* end h2 */
 
+.nav>li>a { 
+	padding: 10px 10px;
+}
+
 /* start sponsors team rules portfolio contact */
 #sponsors, #team, #rules,
-#portfolio, #contact, #organizers
+#portfolio, #contact, #organizers,#participants,#event
 	{
 		padding-top: 60px;
 		padding-bottom: 40px;
 	}
 /* end sponsors team rules portfolio contact */
 #participants {
-	background: #64cef5;
+	background: #7fffd4;
 }
 
 #organizers {
-	background: #c488ce;
+	background: #db7093;
 	padding: 130px 0;
 }
+
+#event{
+	background: #ffed34;
+
+}
+
+#event .thumbnail {
+	text-align: center
+}
+
+#event .thumbnail p {
+	font-size: 20px;
+	line-height: 1.3
+}
+
+#event .thumbnail h3 {
+margin-bottom: 15px;
+}
+
+#event .prize {
+	margin-top :40px
+}
+
+#event .date-venue .thumbnail{
+ background:aqua;
+}
+
 /* start preloader */
 .preloader
 	{
@@ -303,6 +334,11 @@ header .social-icon li a
 /* end team */
 
 /* start rules */
+
+#rules {
+	background: #ff7feb99
+}
+
 #rules .col-md-4
 	{
 		padding: 40px;
@@ -512,6 +548,11 @@ header .social-icon li a
 .profile h1 {
 	color: #28A7E9;
 }
+
+.profile p {
+	font-size: 17px;
+	padding: 30px;
+	}
 
 .profile .form-control
 	{
