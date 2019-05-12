@@ -85,7 +85,7 @@ var contestants = [{
 function loadContestants(){
     let contetstatHtmlString = "";
     contestants.forEach(element => {
-        contetstatHtmlString = `${contetstatHtmlString}<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+        contetstatHtmlString = `${contetstatHtmlString}<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="0" data-wow-delay="0.5s">
         <div class="team-wrapper">
             <img id="${element.contestantId}" src="images/${element.imageName}" class="img-responsive" alt="team img 1" data-toggle="modal" data-id="${element.contestantId}" data-name="${element.name}" data-video="${element.youtube}" data-target=".profile-modal-lg">
                 <div class="team-des">
